@@ -411,6 +411,15 @@ export default function DemoPage() {
               </svg>
               {autoPlay ? "Pause" : "Auto-Play"}
             </button>
+            <Link
+              href="/api/demo-login"
+              className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white text-slate-900 hover:bg-slate-100 transition-colors"
+            >
+              Demo starten
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2.5 6h7M6.5 3l3 3-3 3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </Link>
             <Link href="/" className="text-sm text-slate-400 hover:text-white transition-colors">
               ← Zurück
             </Link>
