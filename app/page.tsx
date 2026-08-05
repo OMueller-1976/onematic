@@ -824,7 +824,7 @@ function Footer() {
 
           <div className="space-y-3">
             <p className="text-xs font-semibold text-slate-900 tracking-widest uppercase">Unternehmen</p>
-            <Link href="/impressum" className="block text-sm text-slate-500 hover:text-slate-900 transition-colors">Über ONEmatic</Link>
+            <Link href="/ueber-onematic" className="block text-sm text-slate-500 hover:text-slate-900 transition-colors">Über ONEmatic</Link>
             <Link href="/kontakt" className="block text-sm text-slate-500 hover:text-slate-900 transition-colors">Kontakt</Link>
             <Link href="/impressum" className="block text-sm text-slate-500 hover:text-slate-900 transition-colors">Impressum</Link>
             <Link href="/datenschutz" className="block text-sm text-slate-500 hover:text-slate-900 transition-colors">Datenschutz</Link>

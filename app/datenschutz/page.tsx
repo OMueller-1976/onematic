@@ -42,7 +42,7 @@ export default function DatenschutzPage() {
               Am Bruchborn 6<br />
               54570 Kirchweiler<br />
               Deutschland<br />
-              E-Mail: <a href="mailto:om@onetitel.de" className="text-blue-600 hover:underline">om@onetitel.de</a>
+              E-Mail: <a href="mailto:ONEmatic@onetitel.de" className="text-blue-600 hover:underline">ONEmatic@onetitel.de</a>
             </p>
           </section>
 
@@ -149,7 +149,7 @@ export default function DatenschutzPage() {
             </ul>
             <p className="mt-3">
               Zur Ausübung Ihrer Rechte wenden Sie sich bitte an:{" "}
-              <a href="mailto:om@onetitel.de" className="text-blue-600 hover:underline">om@onetitel.de</a>
+              <a href="mailto:ONEmatic@onetitel.de" className="text-blue-600 hover:underline">ONEmatic@onetitel.de</a>
             </p>
           </section>
 
@@ -170,7 +170,7 @@ export default function DatenschutzPage() {
             </p>
             <p className="mt-2">
               Oliver M. Müller<br />
-              E-Mail: <a href="mailto:om@onetitel.de" className="text-blue-600 hover:underline">om@onetitel.de</a>
+              E-Mail: <a href="mailto:ONEmatic@onetitel.de" className="text-blue-600 hover:underline">ONEmatic@onetitel.de</a>
             </p>
           </section>
 

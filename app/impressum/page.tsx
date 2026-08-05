@@ -27,20 +27,49 @@ export default function ImpressumPage() {
       {/* Content */}
       <main className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl font-bold text-slate-900 mb-2">Impressum</h1>
-        <p className="text-sm text-slate-500 mb-10">Angaben gemäß § 5 TMG</p>
+        <p className="text-sm text-slate-500 mb-10">Angaben gemäß § 5 DDG</p>
 
         <div className="prose prose-slate max-w-none space-y-8 text-sm text-slate-700 leading-relaxed">
 
           <section>
-            <h2 className="text-base font-semibold text-slate-900 mb-2">Anbieter</h2>
             <p>
+              OneTitel – Digital &amp; Business Solutions<br />
               Oliver M. Müller<br />
               Am Bruchborn 6<br />
               54570 Kirchweiler<br />
               Deutschland
             </p>
-            <p className="mt-2">
-              E-Mail: <a href="mailto:om@onetitel.de" className="text-blue-600 hover:underline">om@onetitel.de</a>
+          </section>
+
+          <section>
+            <h2 className="text-base font-semibold text-slate-900 mb-2">Kontakt</h2>
+            <p>
+              E-Mail: <a href="mailto:ONEmatic@onetitel.de" className="text-blue-600 hover:underline">ONEmatic@onetitel.de</a><br />
+              Website: <span className="text-slate-700">www.onematic.de</span>
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-base font-semibold text-slate-900 mb-2">Umsatzsteuer</h2>
+            <p>
+              USt-IdNr. gemäß § 27a UStG: DE326064654<br />
+              <span className="text-slate-500 text-xs">Freiwillige Zusatzangabe: Finanzamt Wittlich, Steuernummer 43/222/06195</span>
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-base font-semibold text-slate-900 mb-2">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+            <p>
+              Oliver M. Müller<br />
+              Am Bruchborn 6, 54570 Kirchweiler, Deutschland
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-base font-semibold text-slate-900 mb-2">Haftungshinweis</h2>
+            <p>
+              Hinweis: ONEmatic ist keine Rechts-, Steuer- oder Finanzberatung. Alle Inhalte dienen der
+              allgemeinen Information und ersetzen keine rechtliche oder steuerliche Beratung.
             </p>
           </section>
 
